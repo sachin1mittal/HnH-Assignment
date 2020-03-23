@@ -1,0 +1,14 @@
+{
+  "development": {
+    "database_username": "",
+    "database_password": ""
+  },
+  "production": {
+    "database_username": "",
+    "database_password": ""
+  },
+  "test": {
+    "database_username": "",
+    "database_password": ""
+  }
+}

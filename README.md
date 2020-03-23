@@ -3,22 +3,16 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Things you have to do to run this app:
 
-* Ruby version
+* Copy config.sample.json to a new file and name it config.json
 
-* System dependencies
+* Add postgres database credentials in config.json for development and test env.
 
-* Configuration
+* run `rake db:create && rake db:migrate && rake db:seed`
 
-* Database creation
+* run `rake start`
 
-* Database initialization
+* App will be accessible on localhost:3000
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* To run Tests: run `rspec spec`
