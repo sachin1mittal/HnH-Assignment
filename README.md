@@ -5,9 +5,9 @@ application up and running.
 
 Things you have to do to run this app:
 
-* Copy config.sample.json to a new file and name it config.json
+* Copy `config.sample.json` to a new file and name it `config.json`
 
-* Add postgres database credentials in config.json for development and test env.
+* Add postgres database credentials in `config.json` for development and test env.
 
 * run `rake db:create && rake db:migrate && rake db:seed`
 
